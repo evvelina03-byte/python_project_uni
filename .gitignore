@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+.venv
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+
+# ML models (too large for git)
+backend/ml/**/*.pkl
+backend/ml/**/*.joblib
+
+# Node
+node_modules/
+.next/
+.turbo/
+frontend/.env.local
+frontend/.env
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/settings.json
+
+# Database
+*.db
+*.sqlite
+
+# Logs
+*.log
+
+# Local backend environment and secrets
+backend/.env
+backend/venv/
+backend/.venv/
+
+# Generated frontend and Python files
+frontend/node_modules/
+frontend/.next/
+__pycache__/
